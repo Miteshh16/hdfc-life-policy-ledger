@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    default: dev
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+  flyway:
+    enabled: true
+  jackson:
+    default-property-inclusion: non_null
